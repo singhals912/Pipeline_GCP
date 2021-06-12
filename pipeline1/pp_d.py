@@ -53,6 +53,7 @@ def main():
         str_test = str(blob.download_as_string(), "utf-8")
         data = StringIO(str_test)
         df_test = pd.read_csv(data)
+        print(df_test)
         df_answers = question_answer(df_test)
         print(df_answers)
         df_list.append(df_answers)
