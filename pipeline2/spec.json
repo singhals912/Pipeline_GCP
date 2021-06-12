@@ -11,7 +11,7 @@
       "export GOOGLE_APPLICATION_CREDENTIALS=/app/creds.json",
       "python /app/gcs.py"
     ],
-    "image": "esha212/mgmt590-gcs",
+    "image": "singhals912/mgmt590-sql:9e96be10e3b87ad36f13c7b31221002886bc58d7",
     "secrets": [ {
         "name": "gcsaccess",
         "env_var": "GCS_ACCESS",
