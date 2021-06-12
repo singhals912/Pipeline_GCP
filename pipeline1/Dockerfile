@@ -2,4 +2,4 @@ FROM python
 
 RUN pip install  pandas transformers torch  google-cloud google-cloud-vision google-api-python-client google-cloud-storage
 
-COPY pipeline1.py /app/pipeline.py
+COPY pp.py /app/pipeline.py
