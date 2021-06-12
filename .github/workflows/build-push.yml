@@ -22,7 +22,7 @@ jobs:
 
     - name: Build and push
       run: |-
-        cd pipeline1 && docker build -t esha212/mgmt590-gcs:${{  github.sha }} .
-        docker push esha212/mgmt590-gcs:${{  github.sha }} && cd ../
-        cd pipeline2 && docker build -t esha212/mgmt590-sql:${{  github.sha }} .
-        docker push esha212/mgmt590-sql:${{  github.sha }}
+        cd pipeline1 && docker build -t singhals912/mgmt590-gcs:${{  github.sha }} .
+        docker push singhals912/mgmt590-gcs:${{  github.sha }} && cd ../
+        cd pipeline2 && docker build -t singhals912/mgmt590-sql:${{  github.sha }} .
+        docker push singhals912/mgmt590-sql:${{  github.sha }}
