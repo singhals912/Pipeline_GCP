@@ -60,12 +60,12 @@ def downloadFiles(environment):
     bucket = ''
 
     if environment == "local":
-        bucket_name = 'mgmt590-assgn4'
+        bucket_name = 'mgmt-590-class'
         storage_client = storage.Client.from_service_account_json('credentials.json')
         bucket = storage_client.get_bucket(bucket_name)
         output_folder = os.getcwd() + '\pfs\in'
     elif environment == "prod":
-        bucket_name = 'mgmt590-assgn4'
+        bucket_name = 'mgmt-590-class'
         storage_client = storage.Client()
         bucket = storage_client.get_bucket(bucket_name)
         output_folder = os.getcwd() + '/pfs/in'
@@ -82,12 +82,12 @@ def downloadFiles(environment):
 
 def delete_file(environment):
     if environment == "local":
-        bucket_name = 'mgmt590-assgn4'
+        bucket_name = 'mgmt-590-class'
         storage_client = storage.Client.from_service_account_json('credentials.json')
         bucket = storage_client.get_bucket(bucket_name)
         output_folder = os.getcwd() + '\pfs\in'
     elif environment == "prod":
-        bucket_name = 'mgmt590-assgn4'
+        bucket_name = 'mgmt-590-class'
         storage_client = storage.Client()
         bucket = storage_client.get_bucket(bucket_name)
     try:
