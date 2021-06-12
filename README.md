@@ -1,2 +1,1 @@
-# mgmt590-batch
-Pipelining
+# mgmt590-batchprocess
