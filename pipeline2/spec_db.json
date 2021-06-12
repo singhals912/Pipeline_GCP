@@ -1,6 +1,6 @@
 {
   "pipeline": {
-    "name": "getfiles"
+    "name": "uploadfiles"
   },
   "description": "A pipeline that gets a file out of GCS",
   "transform": {
