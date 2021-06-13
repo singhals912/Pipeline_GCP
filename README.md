@@ -165,17 +165,13 @@ The code will automatically connect your output from pipeline 1 as the input for
 
 ## Expected Output from pachctl commands
 
-```
-singhals912@cloudshell:~/gcs-example (container-assgn2)$ pachctl list job ID PIPELINE STARTED DURATION RESTART PROGRESS DL UL STATE ea47124578294ea88c42234331a2c123 getfiles2 2 minutes ago 17 seconds 0 1 + 0 / 1 0B 1.773KiB success 
-```
 
-```
-singhals912@cloudshell:~/gcstest2 (singhals912)$ pachctl list repo
-NAME CREATED SIZE (MASTER) ACCESS LEVEL
-getfiles2 7 minutes ago 1.773KiB OWNER Output repo for pipeline getfiles2.
-getfiles2_tick 7 minutes ago 0B OWNER Cron tick repo for pipeline getfiles2.
-```
-``` 
-singhals912@cloudshell:~/gcs-example (container-assgn2)$ pachctl list file getfiles2@87d05708c6444776bda86da1b9ef5c0a NAME TYPE SIZE /answers.csv file 3.547KiB
- 
-```
+<img width="627" alt="pachctl list repo" src="https://user-images.githubusercontent.com/20911800/121794699-7cacb580-cbd8-11eb-840c-f73266867dab.PNG">
+
+
+<img width="758" alt="MicrosoftTeams-image (3)" src="https://user-images.githubusercontent.com/20911800/121794702-81716980-cbd8-11eb-8207-774fc57873d9.png">
+
+
+<img width="748" alt="MicrosoftTeams-image (2)" src="https://user-images.githubusercontent.com/20911800/121794707-89c9a480-cbd8-11eb-90f0-257085a4c024.png">
+
+
