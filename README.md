@@ -179,5 +179,3 @@ getfiles2_tick 7 minutes ago 0B OWNER Cron tick repo for pipeline getfiles2.
 singhals912@cloudshell:~/gcs-example (container-assgn2)$ pachctl list file getfiles2@87d05708c6444776bda86da1b9ef5c0a NAME TYPE SIZE /answers.csv file 3.547KiB
  
 ```
-
-![image](https://user-images.githubusercontent.com/20911800/121794401-bd56ff80-cbd5-11eb-830e-1994bbb8c4e8.png)
